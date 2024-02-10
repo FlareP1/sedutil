@@ -38,8 +38,9 @@ int main(int argc, char** argv) {
     RCLog::Level() = CLog::FromInt(2);
     LOG(D4) << "Legacy PBA start" << endl;
 //    system ("tput clear");
+    printf("Updated Pre Boot Authorization 10/02/24\n");
     printf("DTA LINUX Pre Boot Authorization \n");
-    string p = GetPassPhrase("Please enter pass-phrase to unlock OPAL drives: ");
+    string p = GetPassPhrase("Enter User Password:");
     UnlockSEDs((char *)p.c_str());
     if (strcmp(p.c_str(), "debug")) {
         printf("Starting OS \n");
