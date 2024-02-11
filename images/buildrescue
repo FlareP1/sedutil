@@ -2,7 +2,7 @@
 set -x
 ## define releases for tools
 . conf
-VERSIONINFO=`git describe --dirty`  || VERSIONINFO=1.20.1
+VERSIONINFO=`git describe --dirty`  || VERSIONINFO=tarball
 BUILDTYPE=RESCUE32
 ROOTDIR=32bit
 
