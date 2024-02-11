@@ -13,3 +13,13 @@ built sources and dependencies.
 To build the images then
 cd images 
 and read the BUILDING file
+
+
+-----------------------
+To set the build version change the following files:
+
+configure.ac
+images/buildroot/package/sedutil/sedutil.mk
+images/buildUEFI64
+images/buildbios
+images/buildrescue
