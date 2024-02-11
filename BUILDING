@@ -20,6 +20,8 @@ To set the build version change the following files:
 
 configure.ac
 images/buildroot/package/sedutil/sedutil.mk
-images/buildUEFI64
-images/buildbios
-images/buildrescue
+
+git tag -a <VersionNum> -m "Version <VersionNum> release"
+e.g. git tag -a 1.20.1 -m "Version 1.20.1 release"
+
+after building use git push origin --tags to push the tags to the remote
