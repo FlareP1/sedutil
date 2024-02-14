@@ -25,6 +25,7 @@
 
 # Put a getty on the console
 console::respawn:/sbin/getty -L  console 0 vt100 # GENERIC_SERIAL
+
 # Add additional getty on serial port
 tty1::respawn:/sbin/getty -L ttyS0 115200 vt100
 
