@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([sedutil], [1.20.1], [https://github.com/FlareP1/sedutil/issues])
+AC_INIT([sedutil], [1.20.2], [https://github.com/FlareP1/sedutil/issues])
 AC_CONFIG_SRCDIR([Common/sedutil.cpp])
 AC_CONFIG_HEADERS([config.h])
 
